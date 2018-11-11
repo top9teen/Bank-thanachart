@@ -4,7 +4,7 @@ public class ThanachartPriceBean {
 	private int thId;
 	private String yeYear;
 	private String brName;
-	private int thPrice;
+	private String thPrice;
 	public int getThId() {
 		return thId;
 	}
@@ -23,10 +23,10 @@ public class ThanachartPriceBean {
 	public void setBrName(String brName) {
 		this.brName = brName;
 	}
-	public int getThPrice() {
+	public String getThPrice() {
 		return thPrice;
 	}
-	public void setThPrice(int thPrice) {
+	public void setThPrice(String thPrice) {
 		this.thPrice = thPrice;
 	}
 }
